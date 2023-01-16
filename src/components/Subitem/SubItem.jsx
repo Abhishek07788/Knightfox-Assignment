@@ -62,7 +62,7 @@ const SubItem = () => {
         boxShadow ="rgba(0, 0, 0, 0.24) 0px 3px 8px"
       >
         {loading ? (
-          <Heading>Loading...</Heading>
+          <Heading>Please Wait...</Heading>
         ) : (
           <Box display={"flex"} gap="10" alignItems={"center"} bg="#f2f2f2" borderRadius={10}>
             <Image borderRadius={10} w="80%" h="400px" src={data.image} alt="img"/>

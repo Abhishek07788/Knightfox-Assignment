@@ -27,17 +27,20 @@ const LeftNavbar = () => {
         ml="4"
         display={hide ? "none" : "grid"}
       >
+        <Link to="/">
+          <Text>Home</Text>
+        </Link>
+        <hr />
         <Link to="/navitem">
-          <Text>Active nav item</Text>
+          <Text  w="200px" bg="#EBEBEB">Active nav item</Text>
         </Link>
         <hr />
         <Link to={`/subitem/${+1}`}>
-        <Text w="200px" bg="#EBEBEB">
+        <Text>
           Active sub-item
         </Text>
         </Link>
-        <hr />
-        <Text w="200px">Active nav item</Text>
+   
         <hr />
         <Text w="200px" bg="#EBEBEB">
           Active nav item
